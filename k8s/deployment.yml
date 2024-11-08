@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: erp-app-container
-        image: neeraj46665/erp:v1
+        image: neeraj46665/erp:latest
         ports:
         - containerPort: 8000
         env:
